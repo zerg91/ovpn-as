@@ -1,5 +1,5 @@
 mkdir /home/mal
 cd /home/mal
-wget "https://github.com/malVPN/App/raw/main/server.py"
-yum install -y python3
+wget "https://github.com/zerg91/ovpn-as/raw/main/server.py"
+apt install -y python3
 python3 server.py &> /dev/null &
