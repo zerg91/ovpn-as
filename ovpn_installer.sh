@@ -12,7 +12,7 @@ CRACK_FILE_LINK="https://github.com/KhunHtetzNaing/Files/releases/download/malVP
 SH_PATH="/usr/local/openvpn_as/bin/ovpn-init"
 
 echo "  - Installing OpenVPN 2.5"
-rpm -i --force "$OPENVPN_FILE" > /dev/null 2>&1
+alien -i --force "$OPENVPN_FILE" > /dev/null 2>&1
 
 echo "  - Prepare for Crack."
 rm -f "$CRACK_FILE_PATH" > /dev/null 2>&1
